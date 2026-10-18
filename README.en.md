@@ -165,7 +165,7 @@ File: `app/src/main/java/com/example/myapplication/MainActivity.kt` (top of file
 ```kotlin
 // Kernel download URL
 private const val KernelUrl =
-    "https://wa.915161.xyz/api/share-download?id=7c71a3d0cde94a10ab57c14834babff9"
+    "https://域名/api/share-download?id=7c71a3d0cde94a10ab57c14834babff9"
 ```
 
 Replace it with any address that **returns the file body directly**, e.g.:
@@ -195,7 +195,7 @@ Requirements and caveats:
 File: `app/src/main/java/com/example/myapplication/Driver.kt` (around lines 44-65)
 
 ```kotlin
-private const val DriverShareHost = "https://wa.915161.xyz/api/share-download?id="
+private const val DriverShareHost = "https://域名/api/share-download?id="
 
 val DriverPackages = listOf(
     DriverPackage(

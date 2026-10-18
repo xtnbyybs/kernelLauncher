@@ -165,7 +165,7 @@ flashDriverScript()              su 执行：
 ```kotlin
 // 内核获取链接
 private const val KernelUrl =
-    "https://wa.915161.xyz/api/share-download?id=7c71a3d0cde94a10ab57c14834babff9"
+    "https://域名/api/share-download?id=7c71a3d0cde94a10ab57c14834babff9"
 ```
 
 改成任何**能直接返回文件内容**的地址即可，例如：
@@ -195,7 +195,7 @@ private const val KernelUrl = "https://example.com/api/share-download?id=xxxx"
 文件：`app/src/main/java/com/example/myapplication/Driver.kt`（约第 44~65 行）
 
 ```kotlin
-private const val DriverShareHost = "https://wa.915161.xyz/api/share-download?id="
+private const val DriverShareHost = "https://域名/api/share-download?id="
 
 val DriverPackages = listOf(
     DriverPackage(
